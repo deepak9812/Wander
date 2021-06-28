@@ -1,0 +1,604 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+
+#first {
+    background-image: url(https://images.unsplash.com/photo-1502872364588-894d7d6ddfab?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+
+.brand, .search, .menu {
+    position: absolute;
+    line-height: 80px;
+}
+
+.brand {
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+   text-shadow: 0px 1px 2px whitesmoke,
+   0px 3px 6px whitesmoke;
+
+}
+.search{
+    left: 60%;
+    top: 18px;
+}
+.btn{
+    border: 3.5px solid #6e6eb4e8;
+    color: white;
+    cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 25px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.btn:hover{
+     box-shadow: 0 2px 20px 0 #6e6eb4e8 inset, 0 2px 20px 0 #6e6eb4e8,
+                 0 2px 20px 0 rgb(172, 65, 65) inset, 0 2px 20px 0 #3f1294;
+    color: white;
+}
+
+
+
+
+.media {
+    position: absolute;
+    right: -190px;
+    top: 50%;
+    transform: rotate(90deg);
+}
+
+.media ul {
+    list-style: none;
+}
+
+.media ul li {
+    font-size: 25px;
+    display: inline-block;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-right: 20px;
+    text-shadow: 0px -1px 2px white,
+    0px -3px 6px rgb(172, 65, 65),
+    0px -3px 6px rgb(116, 76, 228),
+    0px -3px 6px rgb(152, 174, 223),
+    0px -3px 6px rgb(120, 65, 172);
+    cursor: pointer;
+}
+
+.date {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+}
+.date h3{
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+.date h3 span{
+    font-size: 18px;
+    color: #696969;
+}
+
+.header h1{
+    position: absolute;
+    top: 60%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    font-size: 105px;
+    letter-spacing: 0.5px;
+}
+
+h1 span {
+    -webkit-text-stroke: 2px #fff;
+    color: rgba(0,0,0,0);
+}
+
+
+.txt {
+    position: relative;
+}
+
+.one {
+    margin-top: 100px;
+}
+
+.text-1 {
+    top: 160px;
+    left: 80px;
+}
+.text-1 h1{
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    color: whitesmoke;
+}
+.text-1 h1 span{
+    font-size: 120px;
+    font-weight: 800;
+}
+
+.text-2 {
+    color: whitesmoke;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 25px;
+    z-index: 1;
+    top: 280px;
+    left: 200px;
+}
+
+.three {
+    z-index: 2;
+    top: -720px;
+    width: 120%;
+}
+
+.four {
+    margin-top: -400px;
+}
+
+.text-3 {
+    color: whitesmoke;
+    font-family: 'Cedarville Cursive', cursive;
+    z-index: 1;
+    top: -180px;
+}
+
+.text-4 {
+    z-index: 1;
+    top: 300px;
+    left: 300px;
+    font-family: 'Cedarville Cursive', cursive;
+    color: whitesmoke;
+}
+
+.six {
+    top: -750px;
+}
+
+
+ .block{
+    padding: 30px;
+    width: 600px;
+    margin: 0px auto;
+    margin-top: -600px;
+    text-align: justify;
+    float: right;
+}
+.block h2{
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+.gtn{
+    color: whitesmoke;
+    background-color: black;
+    padding: 9px 20px;
+    border: 2px solid whitesmoke;
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+
+}
+.parallax{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10%;
+    background-image: url(parallax.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+} 
+.block p{
+    color: rgb(175, 167, 167);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.cards-container{
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+.cards-container h1{
+    color: whitesmoke;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    margin-top: 80px;
+}
+.card{
+    background-color: black;
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+}
+.card h2{
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    font-family: 'Overpass', sans-serif;
+    padding-top: 10px;
+}
+.card p{
+    color: rgb(151, 153, 148);
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.container{
+	max-width: 1170px;
+}
+.container h2{
+    color: whitesmoke;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    margin-top: -10%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container h2::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: rgb(151, 153, 148);
+	height: 3px;
+	box-sizing: border-box;
+	width: 100px;
+}
+.roow{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: black;
+    padding: 10px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 25px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+    margin-left: 15%;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 25px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.last-container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+
+
+.lastone{
+	background: url("https://images.unsplash.com/photo-1525254134158-4fd5fdd45793?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fHRyYXZlbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") no-repeat center;
+	background-size: cover;
+	height: 60%;
+    padding: 25px 40px;
+}
+.lastone h1{
+    font-size: 40px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 4px;
+    line-height: 200%;
+
+}
+
+
+.ltn{
+    font-family: 'Overpass', sans-serif;
+    padding: 8px 25px;
+    text-align: center;
+    margin-left: 36%;
+    align-items: center;
+	background-color: transparent;
+	color: whitesmoke;
+	font-size: 1.6rem;
+	border: 2px solid whitesmoke;
+	outline: black;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.ltn:hover{
+    background-color: transparent;
+}
+
+
+
+
+@media(max-width: 500px){
+  .footer-col{
+    width: 250%;
+    }
+    .container h2 {
+        margin-top: -50%;
+        min-width: 250%;
+    }
+    .block {
+        min-width: 300%;
+    }
+    .nav {
+        min-width: 110%;
+    }
+    .footer{
+        min-width: 400%;
+    }
+    #first{
+        min-width: 400%;
+    }
+    .parallax {
+        min-width: 400%;
+    }
+    .cards {
+        min-width: 400%;
+    }
+    .last-container{
+        min-width: 400%;
+    }
+    .container h2::before{
+        position: relative;
+        left: 190%;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    #first{
+        width: 340%;
+        height: 100%;
+    }
+    .row{
+        width: 250%;
+        margin: 20rem 15rem;
+    }
+    .nav{
+        width: 70%;
+    }
+    .brand{
+        font-size: 60px;
+    }
+    .btn{
+        font-size: 40px;
+    }
+    .cards-container{
+        margin-bottom: 80%;
+    }
+    .cards-container h1{
+        font-size: 120px;
+        width: 340%;
+    }
+    .cards{
+        display: block;
+        flex-direction: column;
+        width: 340%;
+    }
+    .card{
+        margin: 2rem 0rem;
+    }
+    .card h2 {
+        font-size: 100px;
+    }
+    .card p {
+        font-size: 80px;
+    }
+    .parallax{
+        width: 340%;
+    }
+    .block{
+        width: 200%;
+        margin-right: -200%;
+    }
+    .block h2{
+        font-size: 70px;
+    }
+    .block p {
+        font-size: 50px;
+        line-height: 45px;
+    }
+    .container h2{
+        width: 140%;
+        font-size: 100px;
+        text-align: center;
+    }
+    .container h2::before{
+        position: absolute;
+        left: -190%;
+    }
+    .txt {
+        position: relative;
+    }
+    .text-1 {
+        left: 10%;
+    }
+    .text-1 h1 {
+        font-size: 150px;
+    }
+    .text-1 h1 span{
+        font-size: 150px;
+    }
+    .text-2 h1{
+        position: absolute;
+        font-size: 120px;
+        margin-top: 70%;
+    }
+    .text-3 h1{
+        font-size: 120px;
+    }
+    .text-4 h1{
+        font-size: 120px;
+    }
+    .footer-col{
+        width: 50%;
+        line-height: 700%;
+    }
+    .footer-col h4 {
+        line-height: 500%;
+    }
+    .footer{
+        width: 340%;
+    }
+    .footer-col ul li a{
+        font-size: 60px;
+    }
+    .footer-col h4{
+        font-size: 70px;
+        margin-left: 10%;
+    }
+    .last-container{
+        width: 340%;
+    }
+    .lastone h1{
+        font-size: 60px;
+    }
+    .ltn{
+        margin-left: 35%;
+        font-size: 2rem;
+    }
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
